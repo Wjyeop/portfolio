@@ -1,26 +1,24 @@
 /* header */
-#header{height:60px;padding:0 20px;box-sizing:border-box;background:#252525;}
+#header{height:60px;padding:0 20px;box-sizing:border-box;background:#131313;position: fixed; width: 100%; max-width:1920px;}
 #header h1{height:60px;line-height:60px;float:left;padding-right:240px;}
 #header h1 img{vertical-align:middle;}
 #header .menu{float:left;text-align: center;}
 #header .menu i{color:#fff}
 #header .menu > ul:after{display:block;content:"";clear:both;}
 #header .menu > ul > li{float:left;width:224px;height:60px;line-height:60px;}
-#header .menu > ul > li.on{background:#131313;}
+#header .menu > ul > li.on{background:#252525;}
 #header .menu > ul > li > a{display:block;color:#fff;font-weight:400;line-height:60px;text-align:center;font-size:16px;}
 #header .menu > ul > li img{vertical-align:middle;position:relative;top:-3px;padding-right:8px;}
-#header .menu > ul > li ul{display:none;background:#131313;border:2px solid #252525;position:relative;z-index:9;}
+#header .menu > ul > li ul{display:none;background:#252525;border:2px solid #131313;position:relative;z-index:9;}
 #header .menu > ul > li ul li a{line-height:60px;text-align:center;color:#fff;display:block;}
-#header .menu > ul > li:hover{background:#131313;}
-#header .menu > ul > li:hover ul{display:block;}
-#header .menu > ul > li ul li:hover a{color:#01a7fd;}
+#header .menu > ul > li:hover{background:#252525;}
 
 #header .today{float:right;text-align:right;padding-top:10px;}
 #header .today .date{color:#fff;font-size:14px;letter-spacing:0;padding-bottom:2px;display:block;}
 #header .today .clock{color:#fff;font-size:17px;letter-spacing:0;}
 
 #body 
-#profile{height: 400px; padding: 3%; margin-top: 3%;} 
+#profile{height: 400px; padding: 3%; padding-top: 8%;} 
 #profile {color: #fff; background-color: #252525; padding: 5px;}
 #profile h1{font-size: 30px;}
 #profile .left img{width: 300px;  float: left; padding: 5%;}
@@ -29,6 +27,8 @@
 #profile .right p{font-size: 25px; padding: 2% 0 0 0;}
 #profile .right ul{float: left; padding: 10% 5% 0 0; font-size: 20px;}
 #profile .right ul li{padding: 3% 0 0 0;}
+
+#body #skills{height: 400px; background-color: #252525; margin-top: 3%;}
 
 
 /* footer */
@@ -39,7 +39,8 @@
 
 
 /* common */
-body{font-family:'Noto Sans KR', sans-serif;font-weight:400;font-size:18px;letter-spacing:-1px;line-height:1.2;box-sizing:border-box;width:100%;overflow-x:hidden;max-width:1920px;margin:0 auto;background:#131313;color:#fff;border-left:1px solid #252525;border-right:1px solid #252525;}
+body{font-family:'Noto Sans KR', sans-serif;font-weight:400;font-size:18px;letter-spacing:-1px;line-height:1.2;box-sizing:border-box;
+  width:100%;overflow-x:hidden;max-width:1920px;margin:0 auto;background:#131313;color:#fff;border-left:1px solid #252525;border-right:1px solid #252525;}
 #wrap{position:relative;}
 input:focus,select:focus,textarea:focus,button:focus{outline:none;}
 button{letter-spacing:-1px;}
