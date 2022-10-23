@@ -16,13 +16,19 @@
 #header .menu > ul > li ul li:hover a{color:#01a7fd;}
 
 #header .today{float:right;text-align:right;padding-top:10px;}
-#header .today .date{color:#898989;font-size:14px;letter-spacing:0;padding-bottom:2px;display:block;}
+#header .today .date{color:#fff;font-size:14px;letter-spacing:0;padding-bottom:2px;display:block;}
 #header .today .clock{color:#fff;font-size:17px;letter-spacing:0;}
 
-#body{height: 300px;}
-#profile {color: #fff; background-color: #898989; padding: 5px;}
-#profile .left img{height: 200px;  float: left;}
+#body 
+#profile{height: 400px; padding: 3%; margin-top: 3%;} 
+#profile {color: #fff; background-color: #252525; padding: 5px;}
+#profile h1{font-size: 30px;}
+#profile .left img{width: 300px;  float: left; padding: 5%;}
 #profile .left {width: 30%;  float: left;}
+#profile .right{width: 50%; float: left; padding: 5%;}
+#profile .right p{font-size: 25px; padding: 2% 0 0 0;}
+#profile .right ul{float: left; padding: 10% 5% 0 0; font-size: 20px;}
+#profile .right ul li{padding: 3% 0 0 0;}
 
 
 /* footer */
