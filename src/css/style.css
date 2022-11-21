@@ -1,27 +1,20 @@
 /* header */
-#header{height:60px;padding:0 20px;box-sizing:border-box;background:#131313;position: fixed; width: 100%; max-width:1920px;}
+#header{height:60px;padding:0 20px;box-sizing:border-box;background:#131313;position: fixed; width: 100%; max-width: 1920px;}
 #header h1{height:60px;line-height:60px;float:left;padding-right:240px;}
-#header h1 img{vertical-align:middle;}
 #header .menu{float:left;text-align: center;}
 #header .menu i{color:#fff}
-#header .menu > ul:after{display:block;content:"";clear:both;}
 #header .menu > ul > li{float:left;width:224px;height:60px;line-height:60px;}
-#header .menu > ul > li.on{background:#252525;}
-#header .menu > ul > li > a{display:block;color:#fff;font-weight:400;line-height:60px;text-align:center;font-size:16px;}
-#header .menu > ul > li img{vertical-align:middle;position:relative;top:-3px;padding-right:8px;}
-#header .menu > ul > li ul{display:none;background:#252525;border:2px solid #131313;position:relative;z-index:9;}
-#header .menu > ul > li ul li a{line-height:60px;text-align:center;color:#fff;display:block;}
 #header .menu > ul > li:hover{background:#252525;}
 
 #header .today{float:right;text-align:right;padding-top:10px;}
-#header .today .date{color:#fff;font-size:14px;letter-spacing:0;padding-bottom:2px;display:block;}
+#header .today .date{color:#fff;font-size:30%;letter-spacing:0;padding-bottom:2px;display:block;}
 #header .today .clock{color:#fff;font-size:17px;letter-spacing:0;}
 
 #body 
 #profile{height: 400px; padding: 3%; padding-top: 8%;} 
 #profile {color: #fff; background-color: #252525; padding: 5px;}
 #profile h1{font-size: 30px;}
-#profile .left img{width: 300px;  float: left; padding: 5%;}
+#profile .left img{width: 65%;  float: left; padding: 5%;}
 #profile .left {width: 30%;  float: left;}
 #profile .right{width: 50%; float: left; padding: 5%;}
 #profile .right p{font-size: 25px; padding: 2% 0 0 0;}
