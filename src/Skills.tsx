@@ -25,7 +25,7 @@ const Skills = () => {
     <SkillsContainer id="skills">
       <Title>Skills</Title>
       <SkillsContent>
-        <span>주요 기술 : </span>
+        {/* <span>주요 기술 : </span>
                 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=plastic&logo=JavaScript&logoColor=white"/>
                 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=plastic&logo=TypeScript&logoColor=white"/>
                 <img src="https://img.shields.io/badge/HTML-E34F26?style=plastic&logo=HTML&logoColor=white"/>
@@ -37,7 +37,7 @@ const Skills = () => {
                 <img src="https://img.shields.io/badge/Github-181717?style=plastic&logo=Github&logoColor=white"/>
                 <img src="https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=Postman&logoColor=white"/>
                 <img src="https://img.shields.io/badge/Swagger-85EA2D?style=plastic&logo=Swagger&logoColor=white"/>
-                <img src="https://img.shields.io/badge/Figma-F24E1E?style=plastic&logo=Figma&logoColor=white"/>    
+                <img src="https://img.shields.io/badge/Figma-F24E1E?style=plastic&logo=Figma&logoColor=white"/>     */}
       </SkillsContent>
     </SkillsContainer>
   );
