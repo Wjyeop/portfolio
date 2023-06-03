@@ -3,12 +3,12 @@ import styled from 'styled-components';
 
 const TopbarContainer = styled.div`
   width: 100%;
-  display: flex;
   align-items: center;
   padding: 1rem;
   background-color: #f2f2f2;
   border-radius: 10px;
   margin-bottom: 1rem;
+  display: flex; 
 `;
 
 const Title = styled.h1`
@@ -19,11 +19,11 @@ const Title = styled.h1`
 
 const Menu = styled.ul`
   display: flex;
-  list-style: none;
+  list-style: none;  
 `;
 
 const MenuItem = styled.li`
-  margin-right: 1rem;
+  margin-right: 1rem;   
 `;
 
 const Link = styled.a`

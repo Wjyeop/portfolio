@@ -15,7 +15,6 @@ const ProfileContainer = styled.div`
 const Title = styled.h2`
   font-size: 1.2rem;
   margin-left: 1rem;
-
 `;
 
 const ProfileImage = styled.img`
@@ -28,6 +27,7 @@ const ProfileImage = styled.img`
 const ProfileContent = styled.div`
   display: flex;
   align-items: center;
+  margin-left: 4rem;
 
 `;
 
