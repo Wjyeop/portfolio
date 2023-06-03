@@ -6,6 +6,7 @@ const ProjectsContainer = styled.div`
   padding: 1rem;
   background-color: #f9f9f9;
   border-radius: 10px;
+  flex-direction: column;
 `;
 
 const Title = styled.h2`
