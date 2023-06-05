@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const TopbarContainer = styled.div`
-  width: 100%;
+  width: 90%;
   align-items: center;
   padding: 1rem;
   background-color: #f2f2f2;
   border-radius: 10px;
-  margin-bottom: 1rem;
+  margin: 1rem;
   display: flex; 
 `;
 
