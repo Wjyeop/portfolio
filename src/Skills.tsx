@@ -50,6 +50,10 @@ const Skill = css`
   width: 100%;
   border-radius: 10px;
   margin-bottom: 1rem;
+
+  @media (min-width:1000px) {
+    width:50%
+   }
 `;
 
 const JavaScript = styled.div`
@@ -57,6 +61,7 @@ const JavaScript = styled.div`
   background-color: #F7DF1E;
   align-items: center;  
   display: flex;
+  
 
 `
 const JavaScriptImg = styled.img`
@@ -78,6 +83,8 @@ const TypeScript = styled.div`
   background-color: #3178C6;
   align-items: center;  
   display: flex;
+
+  
 `
 const TypeScriptImg = styled.img`
  width:10%;
@@ -86,6 +93,8 @@ const TypeScriptImg = styled.img`
  @media (min-width:300px) {
   width:5%;
  }
+
+ 
 `
 const TypeScriptText = styled.p`
   color:white;
