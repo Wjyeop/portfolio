@@ -26,7 +26,7 @@ const ProfileImage = styled.img`
 
 const ProfileContent = styled.div`
   display: flex;
-  align-items: center;
+  align-items: center;javat
   margin-left: 4rem;
 
 `;
