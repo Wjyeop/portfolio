@@ -43,6 +43,7 @@ const ProjectsContent = styled.div`
   border-radius: 10px;
   margin-bottom: 1rem;
   flex-direction: column;
+  margin-left: 5rem;
 `;
 
 const Project1 = styled.div`

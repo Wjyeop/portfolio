@@ -7,19 +7,19 @@ const Skills = () => {
       <Title>Skills</Title>
       <SkillsContent>
         <JavaScript>
-          <JavaScriptImg src={process.env.PUBLIC_URL + '/javascript.svg'} alt="자바스크립트" />
+          <JavaScriptImg src={process.env.PUBLIC_URL + 'img/javascript.svg'} alt="자바스크립트" />
           <JavaScriptText>JavaScript</JavaScriptText>
         </JavaScript>
         <TypeScript>
-          <TypeScriptImg src={process.env.PUBLIC_URL + '/typescript.svg'} alt="타입스크립트" />
+          <TypeScriptImg src={process.env.PUBLIC_URL + 'img/typescript.svg'} alt="타입스크립트" />
           <TypeScriptText>TypeScript</TypeScriptText>
         </TypeScript>
         <Html5>
-          <Html5Img src={process.env.PUBLIC_URL + '/html5.svg'} alt="프로필 사진" />
+          <Html5Img src={process.env.PUBLIC_URL + 'img/html5.svg'} alt="프로필 사진" />
           <Html5Text>Html</Html5Text>
         </Html5>
         <StyledComponents>
-          <StyledComponentsImg src={process.env.PUBLIC_URL + '/styledcomponents.svg'} alt="프로필 사진" />
+          <StyledComponentsImg src={process.env.PUBLIC_URL + 'img/styledcomponents.svg'} alt="프로필 사진" />
           <StyledComponentsText>StyledComponents</StyledComponentsText>
         </StyledComponents>
       </SkillsContent>
