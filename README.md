@@ -1,3 +1,5 @@
+미완성
+
 https://wjyeop-portfolio.netlify.app/
 
 ## 안녕하세요 👋<br/>
