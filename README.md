@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
+=======
+미완성
+
+https://wjyeop-portfolio.netlify.app/
+>>>>>>> 4c21584c6e167527c99322ff3d645113996434eb
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
