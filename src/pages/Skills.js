@@ -1,4 +1,4 @@
-import { BiLogoReact } from "react-icons/bi";
+import { BiLogoReact,BiLogoGithub } from "react-icons/bi";
 
 function Skills() {
     return(
@@ -72,6 +72,20 @@ function Skills() {
                         <li>정적 웹 사이트나 SPA을 호스팅 할 수 있습니다.</li>
                     </ul>
                 </div>
+                <div className='github'>
+                    <div>
+                        <BiLogoGithub size={40} color="black"/>
+                        <span>Github</span>
+                    </div>                    
+                    <ul>
+                        <li>Github를 활용해 협업한 경험이 있습니다.</li>
+                        <li>Github로 코드를 관리합니다.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className="Skills-2">
+                <h1>EXPERIENCE AND EDUCATION</h1>
             </div>
         </div>
     )

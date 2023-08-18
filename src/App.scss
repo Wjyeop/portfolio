@@ -101,22 +101,24 @@ body {
         display: flex;
         flex-wrap: wrap;     
         div {
+            box-sizing: border-box;
+            width: 29%;
+            border: 1px solid white;
+            border-radius: 7px;
+            margin: 0 20px 30px;
+            padding: 20px 15px;
+
             div{
+                border: none;
                 padding: 5px;
-                margin: 0;
+                margin: 0px;
                 display: flex;
                 width: auto;
                 background-color: #ffb400;
                 span {
                     padding:8px;
                 }
-            }
-            box-sizing: border-box;
-            width: 29%;
-            border: 1px solid white;
-            border-radius: 7px;
-            margin: 0 15px 30px;
-            padding: 20px 30px;
+            }            
             img {
                 width: 40px;
             }
