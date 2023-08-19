@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { AiFillFolderOpen, AiFillGithub, AiFillTool } from "react-icons/ai";
+import { AiFillFolderOpen, AiFillGithub, AiFillTool, AiOutlineHome } from "react-icons/ai";
 
 function Menu() {
     return(
@@ -12,6 +12,9 @@ function Menu() {
                 </h1>
             </div>
             <div className="Menu-2">
+                <Link to="/">
+                    <AiOutlineHome/>
+                </Link> 
                 <Link to="/skills">
                     <AiFillTool/>
                 </Link> 

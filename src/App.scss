@@ -33,9 +33,9 @@ body {
 
         a {
             border: 1px white solid;
-            border-radius: 7px;
+            border-radius: 100px;
             margin-left: 50px;
-            padding: 5px 10px;
+            padding: 10px 15px;
             color: white;
             text-decoration: none;
             background-color: #1d2a3a;
@@ -46,7 +46,8 @@ body {
 .dashboard {
     background-color: #1d2a3a;
     border: 1px solid black;
-    padding-left: 5%;
+    padding: 50px;
+
     .dashboard-1 {
         position: relative;
         height: 300px;
@@ -57,8 +58,8 @@ body {
         img {
             width: 180px;
             position: absolute;
-            right: 5%;
-            top: 5%;
+            right: 0%;
+            top: 0%;
             border-radius: 7px;
         }
     }
@@ -84,6 +85,8 @@ body {
     }
 
     .dashboard-3 {
+        padding-top: 60px;
+
         p {
             font-size: 1em;
             padding-right: 5%;
@@ -102,11 +105,11 @@ body {
         flex-wrap: wrap;     
         div {
             box-sizing: border-box;
-            width: 29%;
+            width: 30%;
             border: 1px solid white;
             border-radius: 7px;
-            margin: 0 20px 30px;
-            padding: 20px 15px;
+            margin: 0 10px 30px;
+            padding: 10px;
 
             div{
                 border: none;
@@ -122,11 +125,149 @@ body {
             img {
                 width: 40px;
             }
-            li {
-                text-align: left;
-                list-style-type:circle;
 
+            ul {
+                padding: 5px 5px 5px 25px;
+
+                li {
+                    text-align: left;
+                    list-style-type:circle;
+    
+                }
             }
+            
+        }        
+    }
+
+    .Skills-2 {
+        padding: 50px 0 50px 0;
+        display: flex;
+        flex-wrap: wrap;     
+        div {
+            box-sizing: border-box;
+            width: 100%;
+            border: 1px solid white;
+            border-radius: 7px;
+            margin: 0 10px 30px;
+            padding: 10px;
+
+            div{
+                border: none;
+                padding: 5px;
+                margin: 0px;
+                display: flex;
+                width: auto;
+                background-color: #ffb400;
+                span {
+                    padding:8px;
+                }
+            }            
+            img {
+                width: 40px;
+            }
+
+            ul {
+                padding: 5px 5px 5px 25px;
+
+                li {
+                    text-align: left;
+                    list-style-type:circle;
+    
+                }
+            }
+            
         }        
     }
 }
+
+.Projects {
+    background-color: #1d2a3a;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+
+    .Projects-1 {
+        padding: 50px 0 50px 0;
+        display: flex;
+        flex-wrap: wrap;     
+
+        div {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid white;
+            border-radius: 7px;
+            margin: 0 20px 40px;
+            padding: 10px;    
+            .div1 {
+                border: none;
+                padding: 5px;
+                margin: 0px;
+                display: flex;
+                width: auto;
+                background-color: #ffb400;
+                position: relative;
+                span {
+                    padding:8px;
+                }
+            } 
+            .div2 {
+                border: none;
+                padding: 0 5px 0 10px;
+                display: flex;
+                margin: 0px;
+
+                ul {
+                    padding: 10px;
+                    width: 60%;
+
+                    li {
+                        text-align: left;
+                        list-style-type:circle;
+                        padding-bottom: 10px;
+                    }
+                }
+                img {
+                    width: 40%;
+                    height: 35%;
+                    border-radius: 7px;
+                    margin: 30px 0 30px 0;
+                    cursor: pointer;                    
+                }      
+                div {
+                    border: none;
+                    width: 40%;
+                    height: 35%;
+                    border-radius: 7px;
+                    margin: 30px 0 30px 0
+                }          
+            }
+            
+        }  
+    }
+
+    .modal {
+        position: fixed;
+        top: 8%;
+        left: 12%;
+        width: 70%;
+        padding: 30px;
+        border-radius: 7px;
+        background-color: #fff;
+
+        div {
+            padding-bottom: 15px;
+        }
+
+        button {
+            position: absolute;
+            top: 1%;
+            right: 1%;
+        }
+        img {
+            border: 1px solid gray;
+            border-radius: 7px;
+            width: 90%;
+        }
+    }
+}
+

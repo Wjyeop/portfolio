@@ -83,9 +83,20 @@ function Skills() {
                     </ul>
                 </div>
             </div>
+            <h1>EXPERIENCE AND EDUCATION</h1>
 
             <div className="Skills-2">
-                <h1>EXPERIENCE AND EDUCATION</h1>
+                <div className='html'>
+                    <div>
+                        <img src='img/html5.png' alt=""/>
+                        <span>HTML5</span>
+                    </div>                    
+                    <ul>
+                        <li>브라우저와의 호환성을 검토하여 개발합니다.</li>
+                        <li>시맨틱 태그를 유용하게 사용하여 코드의 가독성을 높입니다.</li>
+                        <li>localStorage와 sessionStorage를 활용합니다.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
