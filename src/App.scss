@@ -67,10 +67,11 @@ body {
         padding-bottom: 80px;
         ul {
             display: flex;
-            flex-wrap: wrap;                
+            flex-wrap: wrap;      
+            padding-left: 20px;          
             li {
                 list-style-type: none;
-                width: 30%;
+                width: 33%;
                 padding-bottom: 20px;
                 font-weight: 500;
                 font-size: 1em;
