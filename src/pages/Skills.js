@@ -3,7 +3,10 @@ import { BiLogoReact,BiLogoGithub } from "react-icons/bi";
 function Skills() {
     return(
         <div className="Skills">
-            <h1>MY SKILLS</h1>
+            <div className="title">
+                {/* <span className="big">MYSKILLS</span> */}
+                <h1 className="small">SKILLS</h1>
+            </div>
 
             <div className="Skills-1">
 

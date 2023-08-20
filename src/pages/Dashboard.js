@@ -3,13 +3,11 @@ function Dashboard() {
         <div className="dashboard">
 
             <div className="dashboard-1">
-                <h1>Hi, I'M FRONTEND DEVELOPER<br/></h1>
+                <h1 className="ani">Hi, I'M FRONTEND DEVELOPER<br/></h1>
 
-                <p>
-                    안녕하세요 원준엽입니다👋<br/>
-                    저는 프론트엔드 개발자입니다.<br/>
-                    개발 기술을 차곡차곡 쌓아가고 있습니다.
-                </p>           
+                <p className="p1">안녕하세요 원준엽입니다👋</p>
+                <p className="p2">저는 프론트엔드 개발자입니다.</p>           
+                <p className="p3">개발 기술을 차곡차곡 쌓아가고 있습니다.</p>        
                 <img src='img/profile.jpg' alt=""/>                     
             </div>
             <div className="dashboard-2">
