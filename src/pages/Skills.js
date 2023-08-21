@@ -116,7 +116,7 @@ function Skills() {
                 <div className='html'>
                     <div>
                         <img src='img/inflearn.jpg' style={{borderRadius:"7px"}} alt=""/>
-                        <span>인프런 개발자 교육</span>
+                        <span>인프런 개발자 교육(2주)</span>
                     </div>                    
                     <ul>
                         <li>리액트&파이어베이스를 이용한 웹 개발 필수 기능 구현</li>
@@ -128,7 +128,7 @@ function Skills() {
                 <div className='html'>
                     <div>
                         <img src='img/wanted.png' style={{borderRadius:"7px"}} alt="" />
-                        <span>원티드 개발자 교육</span>
+                        <span>원티드 개발자 교육(4주)</span>
                     </div>                    
                     <ul>
                         <li>TypeScript</li>
@@ -138,7 +138,7 @@ function Skills() {
                 <div className='html'>
                     <div>
                         <img src='img/programmers.png' style={{borderRadius:"7px"}} alt=""/>
-                        <span>프로그래머스 개발자 교육</span>
+                        <span>프로그래머스 개발자 교육(4주)</span>
                     </div>                    
                     <ul>
                         <li>FE 채용 과제로 배우는 자바스크립트</li>
