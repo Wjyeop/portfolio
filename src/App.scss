@@ -322,6 +322,11 @@ body {
                         text-align: left;
                         list-style-type:circle;
                         padding-bottom: 10px;
+
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+                        }
                     }
                 }
                 img {

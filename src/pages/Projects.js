@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css';
@@ -79,6 +80,11 @@ function Projects() {
                             <li>리액트&파이어베이스를 이용한 웹 개발 필수 기능 구현</li>
                             <li>회원가입, 로그인 기능 구현</li>
                             <li>게시글 작성 및 저장 삭제 기능 구현</li>
+                            <li>
+                                <Link to="https://react-with-firebase-39fa2.web.app">
+                                    링크 이동
+                                </Link>
+                            </li>
                             <li>기술 스택 : JavaScript, HTML, CSS, FireBase, Window, Github</li>
                         </ul>
                         <img src="img/myDiary2.png" alt="" onClick={()=>setShowMemo((e)=>!e)}/>
