@@ -21,14 +21,14 @@ function Dashboard() {
           </li>
           <li>
             <span>AGE : </span>
-            26, 1996.10
+            28, 1996.10
           </li>
           <li>
             <span>PHONE : </span>
             010.2482.1996
           </li>
           <li>
-            <span>ADRESS : </span>
+            <span>ADDRESS : </span>
             서울시 강서구
           </li>
           <li>
