@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 function Projects() {
+  const [showHdc, setShowHdc] = useState(false);
   const [showTbems, setShowTbems] = useState(false);
   const [showSaffy, setShowSaffy] = useState(false);
   const [showIbiz, setShowIbiz] = useState(false);
@@ -20,9 +21,34 @@ function Projects() {
       </div>
 
       <div className="Projects-1">
+        <div className="Hdc">
+          <div className="div1">
+            <span>건설 현장 모니터링 모바일 웹</span>
+            <span style={{ position: "absolute", right: "1%" }}>
+              23.9~23.12
+            </span>
+          </div>
+          <div className="div2">
+            <ul>
+              <li>전국 건설 현장 관리용 모니터링 시스템</li>
+              <li>
+                해당 건설 현장의 CCTV, 현장위치지도, 장비정보, 날씨, 준공예정일,
+                출역정보, 공정률, 장비상태 등 정보를 모니터링
+              </li>
+              <li>CCTV를 분할 화면으로 확인 가능하고, PTZ 조정 가능</li>
+              <li>개발인원 : 퍼블리셔1명 + 프론트3명 + 백1명</li>
+              <li>프론트 : React 18, JavaScript, HTML, CSS</li>
+            </ul>
+            <img
+              src="img/hdc1.png"
+              alt=""
+              onClick={() => setShowHdc((e) => !e)}
+            />
+          </div>
+        </div>
         <div className="Tbems">
           <div className="div1">
-            <span>건물 에너지 관리 시스템 R&D 정부사업 SI</span>
+            <span>건물 에너지 관리 시스템 R&D 정부사업</span>
             <span style={{ position: "absolute", right: "1%" }}>22.2~22.9</span>
           </div>
           <div className="div2">
@@ -131,6 +157,44 @@ function Projects() {
         </div>
       </div>
 
+      {showHdc && (
+        <div className="modal">
+          <div>
+            <button onClick={() => setShowHdc(false)}>x</button>
+            <Swiper
+              modules={[Navigation, Pagination, Scrollbar, A11y]}
+              spaceBetween={1}
+              slidesPerView={1}
+              navigation
+              pagination={{ clickable: true }}
+              style={{ width: "80%", height: "75vh", overflowY: "scroll" }}
+            >
+              <SwiperSlide>
+                <img
+                  src="img/hdcLong.png"
+                  alt=""
+                  onClick={() => setShowHdc(false)}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="img/hdcLong2.png"
+                  alt=""
+                  onClick={() => setShowHdc(false)}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="img/hdc3.png"
+                  alt=""
+                  onClick={() => setShowHdc(false)}
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
+      )}
+
       {showTbems && (
         <div className="modal">
           <div>
@@ -141,7 +205,11 @@ function Projects() {
               slidesPerView={1}
               navigation
               pagination={{ clickable: true }}
-              scrollbar={{ draggable: true }}
+              style={{
+                width: "80%",
+                height: "75vh",
+                overflowY: "scroll",
+              }}
             >
               <SwiperSlide>
                 <img
@@ -178,7 +246,6 @@ function Projects() {
               slidesPerView={1}
               navigation
               pagination={{ clickable: true }}
-              scrollbar={{ draggable: true }}
             >
               <SwiperSlide>
                 <img
@@ -208,7 +275,6 @@ function Projects() {
               slidesPerView={1}
               navigation
               pagination={{ clickable: true }}
-              scrollbar={{ draggable: true }}
             >
               <SwiperSlide>
                 <img
@@ -245,7 +311,6 @@ function Projects() {
               slidesPerView={1}
               navigation
               pagination={{ clickable: true }}
-              scrollbar={{ draggable: true }}
             >
               <SwiperSlide>
                 <img
