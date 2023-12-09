@@ -41,7 +41,7 @@ function Skills() {
           <ul>
             <li>브라우저와의 호환성을 검토하여 개발합니다.</li>
             <li>시맨틱 태그를 유용하게 사용하여 코드의 가독성을 높입니다.</li>
-            <li>localStorage와 sessionStorage를 활용합니다.</li>
+            {/* <li>localStorage와 sessionStorage를 활용합니다.</li> */}
           </ul>
         </div>
         <div className="css">

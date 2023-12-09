@@ -8,7 +8,7 @@ function Dashboard() {
         </h1>
 
         <p className="p1">안녕하세요 원준엽입니다👋</p>
-        <p className="p2">저는 프론트엔드 개발자입니다.</p>
+        <p className="p2">저는 1년차 프론트엔드 개발자입니다.</p>
         <p className="p3">개발 기술을 차곡차곡 쌓아가고 있습니다.</p>
         <img src="img/profile.jpg" alt="" />
       </div>
@@ -47,6 +47,7 @@ function Dashboard() {
           <br />* 부족한 부분은 개인 프로젝트를 진행하고, 인강을 들으며 부족한
           점을 채워나가기 위해 노력하고 있습니다.
         </p>
+        <p>최종 수정일 : 23년 12월</p>
       </div>
     </div>
   );

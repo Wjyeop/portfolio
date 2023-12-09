@@ -56,6 +56,10 @@ body {
       color: white;
       text-decoration: none;
       background-color: #1d2a3a;
+      border: 3px solid transparent; /* 투명한 테두리 추가 */
+    }
+    a:hover {
+      border-color: #fff; /* 호버 상태에서 테두리 색상 변경 */
     }
   }
 }
