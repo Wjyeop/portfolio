@@ -149,7 +149,7 @@ function Projects() {
               </li>
             </ul>
             <img
-              src="img/myDiary2.png"
+              src="img/mydiary2.png"
               alt=""
               onClick={() => setShowMemo((e) => !e)}
             />
