@@ -13,6 +13,7 @@ function Skills() {
           <div>
             <BiLogoReact size={40} color="black" />
             <span>React</span>
+            <span className="second">1Y6M</span>
           </div>
           <ul>
             <li>컴포넌트 기반으로 설계하여 작동 방식을 이해하고 활용합니다.</li>
@@ -25,6 +26,7 @@ function Skills() {
           <div>
             <img src="img/javascript.png" alt="" />
             <span>JavaScript</span>
+            <span className="second">1Y6M</span>
           </div>
           <ul>
             <li>JS로 웹 제작이 가능합니다.</li>
@@ -32,11 +34,41 @@ function Skills() {
             <li>ES6와 자바스크립트 문법에 맞게 사용합니다.</li>
           </ul>
         </div>
+        <div className="typeScript">
+          <div>
+            <img src="img/typescript.png" alt="" />
+            <span>TypeScript</span>
+            <span className="second">6M</span>
+          </div>
+          <ul>
+            <li>변수와 함수의 타입을 명시하며 오류를 예방할 수 있습니다.</li>
+            <li>
+              협업에서 코드의 가독성과 유지 보수성을 향상시킬 수 있습니다.
+            </li>
+          </ul>
+        </div>
+        <div className="Nextjs">
+          <div>
+            <img src="img/nextjs2.png" alt="" />
+            <span>Nextjs</span>
+            <span className="second">1M</span>
+          </div>
+          <ul>
+            <li>
+              SSR을 활용합니다. 초기 로드 시간을 줄이고 SEO 성능을 향상시킵니다.
+            </li>
+            <li>
+              SSG로 HTML 페이지를 미리 생성하여 배포하여 웹 속도를 향상 시키고
+              서버 부하를 줄입니다.
+            </li>
+          </ul>
+        </div>
 
         <div className="html">
           <div>
             <img src="img/html5.png" alt="" />
             <span>HTML5</span>
+            <span className="second">1Y6M</span>
           </div>
           <ul>
             <li>브라우저와의 호환성을 검토하여 개발합니다.</li>
@@ -48,28 +80,19 @@ function Skills() {
           <div>
             <img src="img/css3.png" alt="" />
             <span>CSS3</span>
+            <span className="second">1Y6M</span>
           </div>
           <ul>
             <li>미디어 쿼리를 활용하여 반응형 웹을 제작합니다.</li>
             <li>시각적으로 깔끔하고 풍부한 개발을 선호합니다.</li>
           </ul>
         </div>
-        <div className="typeScript">
-          <div>
-            <img src="img/typescript.png" alt="" />
-            <span>TypeScript</span>
-          </div>
-          <ul>
-            <li>변수와 함수의 타입을 명시하며 오류를 예방할 수 있습니다.</li>
-            <li>
-              협업에서 코드의 가독성과 유지 보수성을 향상시킬 수 있습니다.
-            </li>
-          </ul>
-        </div>
+
         <div className="firebase">
           <div>
             <img src="img/firebase.png" alt="" />
             <span>Firebase</span>
+            <span className="second">6M</span>
           </div>
           <ul>
             <li>간단한 인증과 보안을 해결할 수 있습니다.</li>
@@ -167,14 +190,14 @@ function Skills() {
               순수 JavaScript)만을 활용해서 웹 기능을 개발하고 유지보수하는
               방법에 대한 내용을 공부합니다.
             </li>
-            <li>
+            {/* <li>
               1주차 : 코딩테스트 ≫ 레이아웃,API 요청 ≫ 로딩 UI, 랜덤버튼 ≫
               숫자와 문자열 ≫ 로컬스토리지 ≫ 스크롤과 결과 없음
             </li>
             <li>
               2주차 : Intersectionobserver ≫ API ≫ 모듈화 ≫ 테스트 ≫ 추가
               요구사항 해결하기 ≫ 코드리뷰 ≫ 최종 테스트
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

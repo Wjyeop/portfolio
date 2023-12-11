@@ -204,6 +204,13 @@ body {
         span {
           padding: 8px;
         }
+        .second {
+          margin-left: auto;
+          margin-top: auto;
+          margin-bottom: auto;
+          color: gray;
+          font-size: 12px;
+        }
       }
       img {
         width: 40px;
@@ -300,6 +307,13 @@ body {
         span {
           padding: 8px;
         }
+        .second {
+          margin-left: auto;
+          margin-top: auto;
+          margin-bottom: auto;
+          color: gray;
+          font-size: 12px;
+        }
       }
       .div2 {
         border: none;
@@ -374,5 +388,17 @@ body {
       height: auto;
       overflow: scroll;
     }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    padding: 0 5%;
   }
 }
