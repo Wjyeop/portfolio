@@ -6,6 +6,7 @@ function Skills() {
       <div className="title">
         {/* <span className="big">MYSKILLS</span> */}
         <h1 className="small">SKILLS</h1>
+        <h1 className="big">SKILLS</h1>
       </div>
 
       <div className="Skills-1">

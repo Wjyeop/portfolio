@@ -18,6 +18,29 @@
   }
 }
 
+@keyframes slide-left2 {
+  0% {
+    transform: translateX(-150%);
+  }
+  80% {
+    transform: translateX(-40%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes slide-right2 {
+  0% {
+    transform: translateX(100%);
+  }
+  80% {
+    transform: translateX(-60%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 body {
   background-color: black;
   font-family: "Noto Sans KR", sans-serif;
@@ -157,24 +180,26 @@ body {
     position: relative;
 
     .small {
-      // position: absolute;
-      top: 2%;
-      right: 42%;
-      animation: slide-left;
+      position: absolute;
+      top: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+      animation: slide-left2;
       animation-duration: 1s;
+      z-index: 100;
     }
     .big {
       font-family: sans-serif;
       position: absolute;
-      font-size: 4em;
-      right: 38%;
+      font-size: 3em;
+      left: 50%;
+      transform: translateX(-50%);
       color: black;
-      animation: good;
+      animation: slide-right2;
       animation-duration: 1s;
 
-      font-size: 50px;
       letter-spacing: 0px;
-      text-transform: uppercase;
+      // text-transform: uppercase;
       font-weight: 1000;
       opacity: 1;
     }
@@ -276,9 +301,30 @@ body {
 
   .title {
     height: 100px;
-    h1 {
-      animation: slide-left;
+    position: relative;
+
+    .small {
+      position: absolute;
+      top: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+      animation: slide-left2;
       animation-duration: 1s;
+      z-index: 100;
+    }
+    .big {
+      font-family: sans-serif;
+      position: absolute;
+      font-size: 3em;
+      left: 50%;
+      transform: translateX(-50%);
+      color: black;
+      animation: slide-right2;
+      animation-duration: 1s;
+      letter-spacing: 0px;
+      // text-transform: uppercase;
+      font-weight: 1000;
+      opacity: 1;
     }
   }
 
