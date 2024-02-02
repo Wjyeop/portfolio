@@ -415,24 +415,19 @@ body {
     padding: 30px;
     border-radius: 7px;
     background-color: #fff;
-    height: 80vh;
+    height: 70vh;
+    z-index: 101;
+    overflow: hidden;
 
     div {
       padding-bottom: 15px;
-      margin-top: auto 0;
+      margin: auto;
     }
 
     button {
       position: absolute;
       top: 1%;
       right: 1%;
-    }
-    img {
-      border: 1px solid gray;
-      border-radius: 7px;
-      width: 90%;
-      height: auto;
-      overflow: scroll;
     }
   }
 }
