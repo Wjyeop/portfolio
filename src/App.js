@@ -3,7 +3,7 @@ import Menu from "./pages/Menu";
 import Dashboard from "./pages/Dashboard";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
-import "./App.scss";
+import "./App.css";
 
 function App() {
   return (

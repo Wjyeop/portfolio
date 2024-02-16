@@ -14,7 +14,7 @@ function Skills() {
           <div>
             <BiLogoReact size={40} color="black" />
             <span>React</span>
-            <span className="second">1Y6M</span>
+            {/* <span className="second">1Y6M</span> */}
           </div>
           <ul>
             <li>컴포넌트 기반으로 설계하여 작동 방식을 이해하고 활용합니다.</li>
@@ -27,7 +27,7 @@ function Skills() {
           <div>
             <img src="img/javascript.png" alt="" />
             <span>JavaScript</span>
-            <span className="second">1Y6M</span>
+            {/* <span className="second">1Y6M</span> */}
           </div>
           <ul>
             <li>JS로 웹 제작이 가능합니다.</li>
@@ -39,7 +39,7 @@ function Skills() {
           <div>
             <img src="img/typescript.png" alt="" />
             <span>TypeScript</span>
-            <span className="second">6M</span>
+            {/* <span className="second">6M</span> */}
           </div>
           <ul>
             <li>변수와 함수의 타입을 명시하며 오류를 예방할 수 있습니다.</li>
@@ -52,7 +52,7 @@ function Skills() {
           <div>
             <img src="img/nextjs2.png" alt="" />
             <span>Nextjs</span>
-            <span className="second">1M</span>
+            {/* <span className="second">1M</span> */}
           </div>
           <ul>
             <li>
@@ -69,7 +69,7 @@ function Skills() {
           <div>
             <img src="img/html5.png" alt="" />
             <span>HTML5</span>
-            <span className="second">1Y6M</span>
+            {/* <span className="second">1Y6M</span> */}
           </div>
           <ul>
             <li>브라우저와의 호환성을 검토하여 개발합니다.</li>
@@ -81,7 +81,7 @@ function Skills() {
           <div>
             <img src="img/css3.png" alt="" />
             <span>CSS3</span>
-            <span className="second">1Y6M</span>
+            {/* <span className="second">1Y6M</span> */}
           </div>
           <ul>
             <li>미디어 쿼리를 활용하여 반응형 웹을 제작합니다.</li>
@@ -93,7 +93,7 @@ function Skills() {
           <div>
             <img src="img/firebase.png" alt="" />
             <span>Firebase</span>
-            <span className="second">6M</span>
+            {/* <span className="second">6M</span> */}
           </div>
           <ul>
             <li>간단한 인증과 보안을 해결할 수 있습니다.</li>
