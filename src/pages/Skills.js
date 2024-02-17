@@ -98,6 +98,7 @@ function Skills() {
           <ul>
             <li>간단한 인증과 보안을 해결할 수 있습니다.</li>
             <li>정적 웹 사이트나 SPA을 호스팅 할 수 있습니다.</li>
+            <li>CRUD를 구현합니다.</li>
           </ul>
         </div>
         <div className="github">
@@ -106,8 +107,7 @@ function Skills() {
             <span>Github</span>
           </div>
           <ul>
-            <li>Github를 활용해 협업한 경험이 있습니다.</li>
-            <li>Github로 코드를 관리합니다.</li>
+            <li>Github를 활용해 협업하고 코드를 관리 합니다.</li>
           </ul>
         </div>
       </div>
