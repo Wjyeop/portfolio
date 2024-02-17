@@ -121,7 +121,7 @@ function Skills() {
               style={{ borderRadius: "7px" }}
               alt=""
             />
-            <span>숭실원격평생교육원대학교(4년)</span>
+            <span>숭실원격평생교육원대학교</span>
           </div>
           <ul>
             <li>23년 6월 ~ 진행 중</li>
@@ -138,7 +138,7 @@ function Skills() {
               style={{ borderRadius: "7px" }}
               alt=""
             />
-            <span>동양미래대학교(2년)</span>
+            <span>동양미래대학교</span>
           </div>
           <ul>
             <li>18년 3월 ~ 22년 2월</li>

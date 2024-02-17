@@ -107,7 +107,7 @@ body {
 
 .dashboard .dashboard-1 p {
   width: 60%;
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin: 0px;
   animation: slide-right;
   animation-duration: 1s;
@@ -209,11 +209,12 @@ body {
   padding: 50px 0 50px 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Skills .Skills-1 div {
   box-sizing: border-box;
-  width: 30%;
+  width: 45%;
   border: 1px solid white;
   border-radius: 7px;
   margin: 0 10px 30px;
@@ -260,11 +261,12 @@ body {
   padding: 50px 0 50px 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Skills .Skills-2 div {
   box-sizing: border-box;
-  width: 47%;
+  width: 45%;
   border: 1px solid white;
   border-radius: 7px;
   margin: 0 10px 30px 10px;
@@ -302,7 +304,7 @@ body {
 .projects {
   background-color: #1d2a3a;
   text-align: center;
-  padding: 50px;
+  padding: 10px;
   position: relative;
 }
 
@@ -352,7 +354,7 @@ body {
   padding: 10px;
 }
 
-.projects .projects-1 div .div1 {
+.projects .projects-1 .con-title {
   border: none;
   padding: 5px;
   margin: 0px;
@@ -360,11 +362,43 @@ body {
   width: auto;
   background-color: #ffb400;
   position: relative;
+  border-radius: 5px;
+}
+
+.projects .projects-1 .con-wrap {
+  display: flex;
+}
+
+.projects .projects-1 .imgwrap {
+  width: 50%;
+  padding: 10px;
+  margin: auto 0;
+}
+
+.projects .projects-1 .imgwrap > img {
+  width: 100%;
+  height: auto;
+}
+
+.projects .projects-1 .textwrap {
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.projects .projects-1 .textwrap a {
+  text-decoration: none;
+  color: #ffb400;
 }
 
 @media screen and (max-width: 1200px) {
   body {
     padding: 0 10%;
+  }
+
+  .Skills .Skills-1 div {
+    /* width: 45%; */
   }
 }
 
