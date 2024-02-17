@@ -144,7 +144,6 @@ function Skills() {
             <li>18년 3월 ~ 22년 2월</li>
             <li>컴퓨터공학</li>
             <li>JAVA, C, PYTHON 등 기본 개발 언어 수강</li>
-            <li>컴퓨터공학 이론 수강</li>
             <li>졸업프로젝트 : 안드로이드 자바 앱 개발</li>
           </ul>
         </div>
@@ -161,7 +160,12 @@ function Skills() {
             <li>리액트&파이어베이스를 이용한 웹 개발 필수 기능 구현</li>
             <li>회원가입, 로그인 기능 구현</li>
             <li>게시글 작성 및 저장 삭제 기능 구현</li>
-            <li>https://react-with-firebase-39fa2.web.app/login</li>
+            <a
+              className="link"
+              href="https://react-with-firebase-39fa2.web.app/login"
+            >
+              링크 이동
+            </a>
           </ul>
         </div>
         <div className="html">

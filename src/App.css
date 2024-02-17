@@ -294,6 +294,7 @@ body {
 
 .Skills .Skills-2 div ul {
   padding: 5px 5px 5px 25px;
+  text-align: left;
 }
 
 .Skills .Skills-2 div ul li {
@@ -356,7 +357,7 @@ body {
 
 .projects .projects-1 .con-title {
   border: none;
-  padding: 5px;
+  padding: 5px 10px;
   margin: 0px;
   display: flex;
   width: auto;
@@ -387,7 +388,7 @@ body {
   font-size: 0.8em;
 }
 
-.projects .projects-1 .textwrap a {
+.link {
   text-decoration: none;
   color: #ffb400;
 }
