@@ -45,7 +45,7 @@ const data = [
     id: "이공커피",
     name: "이공커피 웹사이트",
     duration: "",
-    imageUrl: "img/이공커피 (4).png",
+    imageUrl: "img/이공커피1.jpg",
     details: [
       "이공커피 웹사이트 리뉴얼",
       "카페 홈페이지 제작, 문의하기, 네이버지도와 카카오지도를 활용한 매장 찾기",
@@ -57,7 +57,7 @@ const data = [
     id: "인사이트프로브",
     name: "인사이트프로브 상권분석",
     duration: "23.10~24.01",
-    imageUrl: "img/인사이트프로브1.png",
+    imageUrl: "img/인사이트프로브1.jpg",
     details: [
       "상권분석을 통한 키워드 추천 및 광고 효과 분석",
       "광고 플랫폼의 광고키워드를 검색하고 CHAT GPT를 이용한 내용 추천 및 해당 키워드의 광고 경쟁력을 분석하는 대시보드(키워드로 카카오맵 API, 네이버 데이터랩 API 등 광고 키워드 검색 오픈 API 및 백 API 사용)를 띄어주고 여러 업체에 대한 광고 채널 등록 및 관리 백오피스 프로젝트",
@@ -80,7 +80,7 @@ const data = [
     id: "memo",
     name: "개인 메모장 (TOY PROJECT)",
     duration: "23.6~23.6",
-    imageUrl: "img/개인메모장1.png",
+    imageUrl: "img/개인메모장1.jpg",
     details: [
       "리액트&파이어베이스를 이용한 웹 개발 필수 기능 구현",
       "회원가입, 로그인 기능 구현",
