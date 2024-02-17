@@ -232,6 +232,8 @@ body {
   margin: 0px;
   display: flex;
   width: auto;
+  align-items: center;
+  justify-content: flex-start;
   background-color: #ffb400;
 }
 
@@ -284,6 +286,8 @@ body {
   margin: 0px;
   display: flex;
   width: auto;
+  align-items: center;
+  justify-content: flex-start;
   background-color: #ffb400;
 }
 
@@ -446,6 +450,8 @@ body {
   .Menu .Menu-2 a {
     background-color: #ffb400;
     margin-top: 30px;
+    border-radius: 1px solid #fff;
+    border-color: #fff;
   }
 
   .Menu .Menu-2 .menu-item {
@@ -507,6 +513,10 @@ body {
     padding: 20px;
   }
 
+  .Skills .title .small {
+    top: 20px;
+  }
+
   .Skills .Skills-1 {
     padding-top: 50px;
     padding-bottom: 0px;
@@ -516,12 +526,55 @@ body {
     width: 100%;
   }
 
+  .Skills .Skills-1 div div {
+    height: 40px;
+  }
+
+  .Skills .Skills-1 div div > img {
+    width: 30px;
+  }
+  .Skills .Skills-1 div div > svg {
+    width: 30px;
+    top: 5px;
+  }
+
+  .Skills .Skills-1 div ul li {
+    font-size: 0.8rem;
+  }
+
+  .Skills .Skills-1 div div > span {
+    padding: 0;
+    padding-left: 10px;
+  }
+
   .Skills .Skills-2 {
     padding-top: 20px;
   }
 
   .Skills .Skills-2 div {
     width: 100%;
+  }
+  .Skills .Skills-2 div div {
+    height: 40px;
+  }
+  .Skills .Skills-2 div div > img {
+    width: 30px;
+  }
+
+  .Skills .Skills-2 div ul li {
+    font-size: 0.8rem;
+  }
+  .Skills .Skills-2 div ul a {
+    font-size: 0.8rem;
+  }
+
+  .projects .title .small {
+    top: 20px;
+  }
+
+  .projects .projects-1 .con-title {
+    font-size: 0.9rem;
+    font-weight: bold;
   }
 
   .projects .projects-1 .con-wrap {
