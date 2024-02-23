@@ -5,8 +5,6 @@ import {
   AiFillGithub,
   AiFillTool,
   AiOutlineHome,
-  GiHamburgerMenu,
-  FaHamburger,
 } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
 

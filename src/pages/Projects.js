@@ -49,7 +49,8 @@ const data = [
     details: [
       "이공커피 웹사이트 리뉴얼",
       "카페 홈페이지 제작, 문의하기, 네이버지도와 카카오지도를 활용한 매장 찾기",
-      "스택 : React18, JavaScript, HTML, CSS, Photoshop, Firebase",
+      "A-Z 풀스택 개발 및 디자인, 반응형(작업중), SEO 최적화, 웹사이트 유지보수 및 관리",
+      "풀스택 : React18, JavaScript, HTML, CSS, Photoshop, Firebase",
     ],
     link: "https://yigong-coffee.web.app/",
   },

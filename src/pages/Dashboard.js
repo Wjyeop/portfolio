@@ -9,7 +9,9 @@ function Dashboard() {
 
         <p className="p1">안녕하세요 원준엽입니다</p>
         <p className="p2">저는 2년차 프론트엔드 개발자입니다.</p>
-        <p className="p3">개발 기술을 차곡차곡 쌓아가고 있습니다.</p>
+        <p className="p3">React를 주력으로 하며</p>
+        <p> Vue, TypeScript, Next 등</p>
+        <p>여러가지를 공부하고 있습니다.</p>
         <img src="img/profile.jpg" alt="" />
       </div>
       <div className="dashboard-2">
