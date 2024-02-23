@@ -2,7 +2,7 @@
 저는 웹 개발자이며 주로 프론트엔드 기술을 다루고 있습니다.
 개발 기술을 차곡차곡 쌓아보겠습니다.
 
-[ddd ](https://wjyeop-portfolio.netlify.app)https://wjyeop-portfolio.netlify.app
+<https://wjyeop.site>
 
 
 
