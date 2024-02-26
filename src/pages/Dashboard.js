@@ -39,6 +39,15 @@ function Dashboard() {
           </li>
         </ul>
       </div>
+      <div className="dashboard-4">
+        <ul>
+          <li>- React 개발</li>
+          <li>- TypeScript 개발</li>
+          <li>- JavaScript ES6, HTML5, CSS3, 웹 접근성과 표준 개발</li>
+          <li>- HTTP, Rest API, CS 등 지식 보유</li>
+          <li>- 반응형 웹 제작</li>
+        </ul>
+      </div>
       <div className="dashboard-3">
         <p>
           * 웹 SI / Agency 경험으로 웹 개발 프로젝트를 진행하면서
@@ -47,7 +56,7 @@ function Dashboard() {
           * PostMan, Figma, Swagger 등을 활용한 다양한 개발 환경을 접했습니다.
           <br />* 부족한 부분은 개인 프로젝트를 진행하고, 인강을 들으며 부족한
           점을 채워나가기 위해 노력하고 있습니다.
-          <br />*
+          <br />
         </p>
         <p>최종 수정일 : 24년 02월</p>
       </div>
