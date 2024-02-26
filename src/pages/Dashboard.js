@@ -41,10 +41,10 @@ function Dashboard() {
       </div>
       <div className="dashboard-4">
         <ul>
-          <li>- React 개발</li>
-          <li>- TypeScript 개발</li>
+          <li>- React, TypeScript 개발</li>
           <li>- JavaScript ES6, HTML5, CSS3, 웹 접근성과 표준 개발</li>
-          <li>- HTTP, Rest API, CS 등 지식 보유</li>
+          <li>- HTTP, Rest API, CS 컴퓨터전공 및 기본 지식 보유</li>
+          <li>- 상태관리툴개발 : Redux-toolkit, Recoil, Context API</li>
           <li>- 반응형 웹 제작</li>
         </ul>
       </div>
