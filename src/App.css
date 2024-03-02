@@ -52,7 +52,8 @@ body {
 .Menu {
   background-color: #ffb400;
   display: flex;
-  position: relative;
+  position: fixed;
+  width: 60%;
 }
 
 .Menu .Menu-1 {
@@ -95,7 +96,7 @@ body {
 
 .dashboard {
   background-color: #1d2a3a;
-  padding: 50px;
+  padding: 150px 50px;
 }
 
 .dashboard .dashboard-1 {
@@ -184,7 +185,7 @@ body {
 .Skills {
   background-color: #1d2a3a;
   text-align: center;
-  padding: 50px;
+  padding: 250px 50px;
 }
 
 .Skills .title {
@@ -320,8 +321,9 @@ body {
 .projects {
   background-color: #1d2a3a;
   text-align: center;
-  padding: 10px;
+  padding: 50px 10px;
   position: relative;
+  
 }
 
 .projects .title {
@@ -413,6 +415,10 @@ body {
     padding: 0 10%;
   }
 
+  .Menu {
+    width: 80vw;
+  }
+
   .Skills .Skills-1 div {
     /* width: 45%; */
   }
@@ -435,6 +441,8 @@ body {
 
   .Menu {
     height: 50px;
+    width: 100vw;
+    z-index: 100;
   }
 
   .Menu .Menu-1 {
@@ -448,6 +456,7 @@ body {
     right: 10px;
     z-index: 100;
     top: 10px;
+
   }
 
   .Menu .Menu-2 .ham {
@@ -464,15 +473,17 @@ body {
 
   .Menu .Menu-2 .menu-item {
     display: none;
+    
   }
 
   .Menu .Menu-2.show .menu-item {
     display: block;
     animation: slideInFromRight 0.5s ease-out forwards;
+    z-index: 101;
   }
 
   .dashboard {
-    padding: 20px;
+    padding: 15% 20px;
   }
 
   .dashboard .dashboard-1 h1 {
@@ -489,6 +500,7 @@ body {
 
   .dashboard .dashboard-1 img {
     width: 100px;
+    z-index: 1;
   }
   .dashboard .dashboard-2 h2 {
     font-size: 1.1rem;
@@ -522,7 +534,7 @@ body {
   }
 
   .Skills {
-    padding: 20px;
+    padding: 50px 20px;
   }
 
   .Skills .title .small {
