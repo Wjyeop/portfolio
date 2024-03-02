@@ -19,7 +19,7 @@ function Skills() {
           <ul>
             <li>컴포넌트 기반으로 설계하여 작동 방식을 이해하고 활용합니다.</li>
             <li>리액트의 다양한 라이브러리를 활용합니다.</li>
-            <li>상태관리 라이브러리 Recoil을 활용합니다.</li>
+            <li>상태관리 라이브러리 Redux-toolkit, Zustand, Recoil, Context API를 활용합니다.</li>
           </ul>
         </div>
 

@@ -43,7 +43,7 @@ export default function Projects() {
 const data = [
   {
     id: "이공커피",
-    name: "이공커피 웹사이트",
+    name: "이공커피 웹사이트 (제작중)",
     duration: "",
     imageUrl: "img/이공커피1.jpg",
     details: [
