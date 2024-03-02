@@ -54,6 +54,7 @@ body {
   display: flex;
   position: fixed;
   width: 60%;
+  z-index: 1000;
 }
 
 .Menu .Menu-1 {
