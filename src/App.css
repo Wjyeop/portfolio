@@ -186,7 +186,7 @@ body {
 .Skills {
   background-color: #1d2a3a;
   text-align: center;
-  padding: 250px 50px;
+  padding: 100px 50px;
 }
 
 .Skills .title {
@@ -322,7 +322,7 @@ body {
 .projects {
   background-color: #1d2a3a;
   text-align: center;
-  padding: 50px 10px;
+  padding: 100px 10px;
   position: relative;
   
 }
