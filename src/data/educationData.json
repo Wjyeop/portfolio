@@ -1,0 +1,52 @@
+[
+  {
+    "name": "숭실원격평생교육원대학교",
+    "image": "img/soongsil.png",
+    "style": { "borderRadius": "7px" },
+    "description": [
+      "23년 6월 ~ 진행 중",
+      "컴퓨터공학",
+      "데이터베이스, 알고리즘, 네트워크, 운영체제, 멀티미디어개론, 등"
+    ]
+  },
+  {
+    "name": "동양미래대학교",
+    "image": "img/dongyang.jpg",
+    "style": { "borderRadius": "7px" },
+    "description": [
+      "18년 3월 ~ 22년 2월",
+      "컴퓨터공학",
+      "JAVA, C, PYTHON 등 기본 개발 언어 수강",
+      "졸업프로젝트 : 안드로이드 자바 앱 개발"
+    ]
+  },
+  {
+    "name": "인프런 개발자 교육(2주)",
+    "image": "img/inflearn.jpg",
+    "style": { "borderRadius": "7px" },
+    "description": [
+      "리액트&파이어베이스를 이용한 웹 개발 필수 기능 구현",
+      "회원가입, 로그인 기능 구현",
+      "게시글 작성 및 저장 삭제 기능 구현"
+    ],
+    "link": "https://react-with-firebase-39fa2.web.app/login"
+  },
+  {
+    "name": "원티드 개발자 교육(4주)",
+    "image": "img/wanted.png",
+    "style": { "borderRadius": "7px" },
+    "description": [
+      "TypeScript",
+      "TypeScript를 쓰는 이유"
+    ]
+  },
+  {
+    "name": "프로그래머스 개발자 교육(4주)",
+    "image": "img/programmers.png",
+    "style": { "borderRadius": "7px" },
+    "description": [
+      "FE 채용 과제로 배우는 자바스크립트",
+      "React.js, Vue.js의 지식이 되는 JavaScript의 기본기를 익히기 위한 과목으로, VanillaJS (외부 라이브러리/프레임워크를 사용하지 않는 순수 JavaScript)만을 활용해서 웹 기능을 개발하고 유지보수하는 방법에 대한 내용을 공부합니다."
+    ]
+  }
+]

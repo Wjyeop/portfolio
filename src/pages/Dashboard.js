@@ -12,7 +12,7 @@ function Dashboard() {
         <p className="p3">React를 주력으로 하며</p>
         <p> Vue, TypeScript, Next 등</p>
         <p>여러가지를 공부하고 있습니다.</p>
-        <img src="img/profile.jpg" alt="" />
+        <img src="img/profile.jpg" alt="프로필" />
       </div>
       <div className="dashboard-2">
         <h2>PERSONAL INFOS</h2>
@@ -23,7 +23,7 @@ function Dashboard() {
           </li>
           <li>
             <span>AGE : </span>
-            29, 1996.10
+            30, 1996.10
           </li>
           <li>
             <span>PHONE : </span>
@@ -39,26 +39,28 @@ function Dashboard() {
           </li>
         </ul>
       </div>
-      <div className="dashboard-4">
+      <div className="dashboard-3">
+        <h2>KEY SKILLS</h2>
         <ul>
-          <li>- React, TypeScript 개발</li>
-          <li>- JavaScript ES6, HTML5, CSS3, 웹 접근성과 표준 개발</li>
-          <li>- HTTP, Rest API, CS 컴퓨터전공 및 기본 지식 보유</li>
-          <li>- 상태관리툴개발 : Redux-toolkit, Recoil, Context API</li>
-          <li>- 반응형 웹 제작</li>
+          <li>- React 및 TypeScript 기반의 웹 애플리케이션 개발</li>
+          <li>- JavaScript(ES6+), HTML5, CSS3를 활용한 시맨틱 마크업 및 웹 표준/웹 접근성 준수 개발</li>
+          <li>- HTTP 통신 및 RESTful API 연동 경험, 컴퓨터 과학 전공 지식 기반의 문제 해결 능력</li>
+          <li>- Redux-toolkit, Recoil, Context API 등 다양한 상태 관리 라이브러리 활용</li>
+          <li>- 다양한 디바이스에 최적화된 반응형 웹 디자인 및 개발</li>
         </ul>
       </div>
-      <div className="dashboard-3">
+      <div className="dashboard-4">
+        <h2>EXPERIENCE & GROWTH</h2>
         <p>
           * 웹 SI / Agency 경험으로 웹 개발 프로젝트를 진행하면서
-          프론트엔드로서의 동료들과 커뮤니케이션 방법을 키워왔습니다.
+          프론트엔드로서의 원활한 커뮤니케이션을 통해 성공적으로 프로젝트를 수행했습니다
           <br />
           * PostMan, Figma, Swagger 등을 활용한 다양한 개발 환경을 접했습니다.
           <br />* 부족한 부분은 개인 프로젝트를 진행하고, 인강을 들으며 부족한
           점을 채워나가기 위해 노력하고 있습니다.
           <br />
         </p>
-        <p>최종 수정일 : 24년 02월</p>
+        <p>최종 수정일 : 25년 05월</p>
       </div>
     </div>
   );
