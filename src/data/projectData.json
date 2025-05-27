@@ -12,6 +12,28 @@
     ],
     "link": "https://www.yigongcoffee.com/"
   },
+    {
+    "id": "벽촌",
+    "name": "벽촌 소개 웹사이트",
+    "duration": "24.02~24.04",
+    "imageUrl": "img/벽촌.png",
+    "details": [
+      "벽촌 소개 웹사이트 제작",
+      "벽촌 회사 소개 웹사이트 프론트엔드 개발",
+      "스택 : React, JavaScript, TypeScript, HTML, CSS"
+    ]
+  },
+  {
+    "id": "딜라이트북스",
+    "name": "딜라이트북스 작가 플랫폼",
+    "duration": "23.12~24.02",
+    "imageUrl": "img/딜라이트북스.jpg",
+    "details": [
+      "작가들을 위한 플랫폼 개발",
+      "작가와 소속사 간의 관리 플랫폼 및 정산 PDF 생성 및 출력",
+      "스택 : React, JavaScript, TypeScript, HTML, CSS, Recoil, jsPDF"
+    ]
+  },
   {
     "id": "인사이트프로브",
     "name": "인사이트프로브 상권분석",
