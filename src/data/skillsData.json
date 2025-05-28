@@ -1,8 +1,8 @@
 [
   {
     "name": "React",
-    "icon": "BiLogoReact",
-    "image": null,
+    "icon": "null",
+    "image": "img/react.png",
     "description": [
       "컴포넌트 기반으로 설계하여 작동 방식을 이해하고 활용합니다.",
       "리액트의 다양한 라이브러리를 활용합니다.",

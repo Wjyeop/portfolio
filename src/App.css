@@ -550,7 +550,7 @@ body {
     padding-top: 10px;
   }
 
-  .dashboard .dashboard-3 p {
+  .dashboard .dashboard-3 {
     font-size: 0.8rem;
   }
 
@@ -638,9 +638,8 @@ body {
   .projects .projects-1 .textwrap {
     width: 90%;
     text-align: left;
+    padding: 0 5px 5px 5px;
+    font-size: 0.8rem;
   }
 
-  .projects .projects-1 .textwrap {
-    padding: 0 5px 5px 5px;
-  }
 }
