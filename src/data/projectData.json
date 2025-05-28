@@ -12,7 +12,18 @@
     ],
     "link": "https://www.yigongcoffee.com/"
   },
-    {
+  {
+    "id": "로백스",
+    "name": "법무법인 로백스 홈페이지",
+    "duration": "24.06~24.10",
+    "imageUrl": "img/로백스.png",
+    "details": [
+      "법무법인 로백스 소개 웹사이트 제작",
+      "로백스 소개 웹사이트 프론트엔드 개발",
+      "스택 : React, JavaScript, TypeScript, HTML, CSS, Recoil, KakaoMap API"
+    ]
+  },
+  {
     "id": "벽촌",
     "name": "벽촌 소개 웹사이트",
     "duration": "24.02~24.04",
@@ -85,9 +96,9 @@
   },
   {
     "id": "saffy",
-    "name": "웹 에이전시 프론트 개발 지원_Saffy",
+    "name": "웹 에이전시 프론트 개발_Saffy",
     "duration": "22.12~23.1",
-    "imageUrl": "img/saffy1.png",
+    "imageUrl": "img/saffy01.png",
     "details": [
       "담당 역할 : 로그인 페이지(SNS로그인, 페이지 분기 처리), 마이 페이지(개인정보 수정 및 등록) 구현",
       "프론트 : React, JavaScript, HTML, SCSS",
@@ -97,7 +108,7 @@
   },
   {
     "id": "ibiz",
-    "name": "웹 에이전시 프론트 개발 지원_IbizSoft",
+    "name": "웹 에이전시 프론트 개발_IbizSoft",
     "duration": "22.12~23.1",
     "imageUrl": "img/ibizsoft1.png",
     "details": [
