@@ -621,6 +621,10 @@ body {
     font-size: 0.8rem;
   }
 
+  .projects {
+    padding: 50px 20px;
+  }
+
   .projects .title .small {
     top: 20px;
   }
