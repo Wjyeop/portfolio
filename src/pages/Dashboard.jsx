@@ -7,12 +7,18 @@ const strengths = [
   "HTTP 통신과 RESTful API 연동, 컴퓨터공학 지식을 바탕으로 한 문제 해결",
   "Redux Toolkit, Recoil, Context API를 활용한 상태 관리",
   "다양한 화면 크기에 대응하는 반응형 웹 개발",
+  "생성형 AI를 적극 활용한 아이디어 탐색과 개발 문제 해결",
 ];
 
 export default function Dashboard() {
   return (
     <div className="page dashboard">
       <section className="hero" aria-labelledby="intro-title">
+        <div className="hero-lights" aria-hidden="true">
+          <span />
+          <span />
+          <span />
+        </div>
         <div className="hero-copy">
           <p className="eyebrow">FRONTEND DEVELOPER</p>
           <h1 id="intro-title">
@@ -25,23 +31,29 @@ export default function Dashboard() {
           <p className="hero-description">
             React를 중심으로 웹 서비스를 만듭니다.
             <br />
-            Vue, TypeScript, Next.js로 개발의 폭을 넓혀가고 있습니다.
+            생성형 AI를 적극 활용하고, 새로운 기술을 배우고 적용하는 일을
+            좋아합니다.
           </p>
+          <ul className="interest-tags" aria-label="개발 관심사">
+            <li>React & TypeScript</li>
+            <li>Generative AI</li>
+            <li>Always Learning</li>
+          </ul>
           <div className="hero-actions">
             <Link className="button-link" to="/projects">
               프로젝트 보기 <AiOutlineArrowRight aria-hidden="true" />
             </Link>
-            <a className="text-link" href="mailto:gpgp08@naver.com">
+            <a className="text-link" href="mailto:wjyeop@gmail.com">
               이메일 보내기
             </a>
           </div>
         </div>
         <figure className="profile">
           <img
-            src="/img/profile.jpg"
+            src="/img/portrait.jpg"
             alt="프론트엔드 개발자 원준엽"
-            width="240"
-            height="300"
+            width="413"
+            height="531"
           />
           <figcaption>
             원준엽 <span>Frontend Developer</span>
@@ -75,7 +87,7 @@ export default function Dashboard() {
           <div>
             <dt>이메일</dt>
             <dd>
-              <a href="mailto:gpgp08@naver.com">gpgp08@naver.com</a>
+              <a href="mailto:wjyeop@gmail.com">wjyeop@gmail.com</a>
             </dd>
           </div>
         </dl>
@@ -109,7 +121,12 @@ export default function Dashboard() {
             개발합니다. 개인 프로젝트와 온라인 강의로 부족한 부분을 보완하고
             배운 내용을 직접 적용합니다.
           </p>
-          <p className="content-note">경력·학력 정보 기준: 2025년 5월</p>
+          <p>
+            생성형 AI를 개발 과정에 적극 활용하며 아이디어를 구체화하고 문제를
+            해결합니다. AI가 제안한 코드는 직접 이해하고 검증하며, 새로운 기술은
+            작은 실험과 프로젝트에 적용해 제 것으로 만들어갑니다.
+          </p>
+          <p className="content-note">경력·학력 정보 기준: 2026년 9월</p>
         </div>
       </section>
     </div>

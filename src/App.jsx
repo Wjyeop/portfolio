@@ -10,12 +10,17 @@ import Menu from "./pages/Menu";
 import Dashboard from "./pages/Dashboard";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
+import useScrollReveal from "./hooks/useScrollReveal";
+import useVisualEffects from "./hooks/useVisualEffects";
 import "./App.css";
 
 function Portfolio() {
   const { pathname } = useLocation();
   const mainRef = useRef(null);
+  const progressRef = useRef(null);
   const previousPath = useRef(pathname);
+  useScrollReveal(mainRef, pathname);
+  useVisualEffects(mainRef, progressRef, pathname);
 
   useEffect(() => {
     const titles = {
@@ -34,6 +39,7 @@ function Portfolio() {
 
   return (
     <div className="App">
+      <div className="scroll-progress" ref={progressRef} aria-hidden="true" />
       <a className="skip-link" href="#main-content">
         본문 바로가기
       </a>
@@ -60,7 +66,7 @@ function Portfolio() {
       </main>
       <footer className="site-footer">
         <span>원준엽 · Frontend Developer</span>
-        <a href="mailto:gpgp08@naver.com">gpgp08@naver.com</a>
+        <a href="mailto:wjyeop@gmail.com">wjyeop@gmail.com</a>
       </footer>
     </div>
   );

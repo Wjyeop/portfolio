@@ -7,7 +7,7 @@
     "details": [
       "이공커피 웹사이트 제작",
       "카페 홈페이지 제작, 문의하기, 네이버지도와 카카오지도를 활용한 매장 찾기",
-      "기획부터 디자인·풀스택 개발까지 담당, 반응형(작업 중), SEO 최적화, 웹사이트 유지보수 및 관리",
+      "기획부터 디자인·풀스택 개발까지 담당, 반응형, SEO 최적화, 웹사이트 유지보수 및 관리",
       "풀스택 : React 18, JavaScript, HTML, CSS, Photoshop, Firebase"
     ],
     "link": "https://www.yigongcoffee.com/"
@@ -21,7 +21,8 @@
       "법무법인 로백스 소개 웹사이트 제작",
       "로백스 소개 웹사이트 프론트엔드 개발",
       "스택 : React, JavaScript, TypeScript, HTML, CSS, Recoil, KakaoMap API"
-    ]
+    ],
+    "link": "https://lawvax.co.kr/"
   },
   {
     "id": "벽촌",
