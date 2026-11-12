@@ -16,7 +16,7 @@
     "id": "로백스",
     "name": "법무법인 로백스 홈페이지",
     "duration": "24.06~24.10",
-    "imageUrl": "/img/로백스.png",
+    "imageUrl": "/img/로백스.jpg",
     "details": [
       "법무법인 로백스 소개 웹사이트 제작",
       "로백스 소개 웹사이트 프론트엔드 개발",
@@ -28,7 +28,7 @@
     "id": "벽촌",
     "name": "벽촌 소개 웹사이트",
     "duration": "24.02~24.04",
-    "imageUrl": "/img/벽촌.png",
+    "imageUrl": "/img/벽촌.jpg",
     "details": [
       "벽촌 소개 웹사이트 제작",
       "벽촌 회사 소개 웹사이트 프론트엔드 개발",
@@ -61,7 +61,7 @@
     "id": "hdc",
     "name": "건설 현장 모니터링 모바일 웹",
     "duration": "23.9~23.12",
-    "imageUrl": "/img/hdcA.png",
+    "imageUrl": "/img/hdcA.jpg",
     "details": [
       "전국 건설 현장 관리용 모니터링 시스템",
       "해당 건설 현장의 CCTV, 현장위치지도, 장비정보, 날씨, 준공예정일, 출역정보, 공정률, 장비상태 등 정보를 모니터링",
@@ -86,7 +86,7 @@
     "id": "tbems",
     "name": "건물 에너지 관리 시스템 R&D 정부사업",
     "duration": "22.2~22.9",
-    "imageUrl": "/img/TBEMS1.png",
+    "imageUrl": "/img/TBEMS1.jpg",
     "details": [
       "건물 에너지 관리 시스템 웹 페이지",
       "건물 에너지 총 사용량을 불러와 시각화 하고 전월, 전년 평균과 현재 평균 사용량과 비교하여 에너지 사용량 추이를 알 수 있습니다.",
@@ -99,7 +99,7 @@
     "id": "saffy",
     "name": "웹 에이전시 프론트 개발_Saffy",
     "duration": "22.12~23.1",
-    "imageUrl": "/img/saffy01.png",
+    "imageUrl": "/img/saffy01.jpg",
     "details": [
       "담당 역할 : 로그인 페이지(SNS로그인, 페이지 분기 처리), 마이 페이지(개인정보 수정 및 등록) 구현",
       "프론트 : React, JavaScript, HTML, SCSS",
@@ -111,7 +111,7 @@
     "id": "ibiz",
     "name": "웹 에이전시 프론트 개발_IbizSoft",
     "duration": "22.12~23.1",
-    "imageUrl": "/img/ibizsoft1.png",
+    "imageUrl": "/img/ibizsoft1.jpg",
     "details": [
       "담당 역할 : 대시보드 페이지(데이터 테이블 및 그래프 표시)와 권한 설정 페이지(개인 설정 수정 및 개인정보 등록) 구현",
       "기술 스택 : React, Windows, TypeScript, PHP, SCSS, GitHub, Figma, Postman, Recoil ,Ajax"
