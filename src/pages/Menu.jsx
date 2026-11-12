@@ -36,7 +36,7 @@ export default function Menu() {
     <header className="site-header" ref={headerRef}>
       <Link
         className="brand"
-        to="/"
+        to="/v2"
         onClick={() => setMenuVisible(false)}
         aria-label="원준엽 포트폴리오 홈"
       >
@@ -63,13 +63,13 @@ export default function Menu() {
         aria-label="주 메뉴"
         className={`navigation${menuVisible ? " is-open" : ""}`}
       >
-        <NavLink to="/" end onClick={() => setMenuVisible(false)}>
+        <NavLink to="/v2" end onClick={() => setMenuVisible(false)}>
           소개
         </NavLink>
-        <NavLink to="/skills" onClick={() => setMenuVisible(false)}>
+        <NavLink to="/v2/skills" onClick={() => setMenuVisible(false)}>
           기술과 경험
         </NavLink>
-        <NavLink to="/projects" onClick={() => setMenuVisible(false)}>
+        <NavLink to="/v2/projects" onClick={() => setMenuVisible(false)}>
           프로젝트
         </NavLink>
         <a
@@ -82,6 +82,9 @@ export default function Menu() {
           <AiFillGithub aria-hidden="true" /> GitHub{" "}
           <AiOutlineArrowUp className="external-arrow" aria-hidden="true" />
         </a>
+        <Link to="/" onClick={() => setMenuVisible(false)}>
+          v1
+        </Link>
       </nav>
     </header>
   );

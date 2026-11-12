@@ -10,7 +10,29 @@ beforeEach(() => {
   window.scrollTo = vi.fn();
 });
 
-test("navigation closes the menu and moves focus and scroll to the new page", () => {
+test("home lists every project with its duration and links to v2", () => {
+  render(<App />);
+  expect(screen.getAllByRole("heading", { level: 1 })).toHaveLength(1);
+  const rows = within(
+    screen.getByRole("table", { name: "프로젝트 요약" }),
+  ).getAllByRole("row");
+  expect(rows).toHaveLength(projectData.length);
+  projectData.forEach((project, index) => {
+    expect(rows[index]).toHaveTextContent(project.name);
+    if (project.duration)
+      expect(rows[index]).toHaveTextContent(project.duration);
+  });
+  fireEvent.click(screen.getByRole("link", { name: "v2" }));
+  expect(document.body).toHaveClass("dark");
+  expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent(
+    "원준엽입니다",
+  );
+  fireEvent.click(screen.getByRole("link", { name: "v1" }));
+  expect(document.body).not.toHaveClass("dark");
+});
+
+test("v2 navigation closes the menu and moves focus and scroll to the new page", () => {
+  window.history.replaceState({}, "", "/v2");
   render(<App />);
   fireEvent.click(screen.getByRole("button", { name: "메뉴 열기" }));
   expect(screen.getByRole("button", { name: "메뉴 닫기" })).toHaveAttribute(
@@ -40,6 +62,7 @@ test("navigation closes the menu and moves focus and scroll to the new page", ()
 });
 
 test("Escape returns focus to the menu button and clicking outside closes the menu", () => {
+  window.history.replaceState({}, "", "/v2");
   render(<App />);
   fireEvent.click(screen.getByRole("button", { name: "메뉴 열기" }));
   fireEvent.keyDown(document, { key: "Escape" });
@@ -52,25 +75,28 @@ test("Escape returns focus to the menu button and clicking outside closes the me
   );
 });
 
-test("direct project visits show every project and its recorded duration", () => {
-  window.history.replaceState({}, "", "/projects");
-  render(<App />);
-  expect(screen.getAllByRole("article")).toHaveLength(projectData.length);
-  projectData.forEach((project) => {
-    const article = screen
-      .getByRole("heading", { name: project.name })
-      .closest("article");
-    expect(within(article).getByRole("img")).toHaveAttribute(
-      "src",
-      project.imageUrl,
-    );
-    if (project.duration)
-      expect(within(article).getByText(project.duration)).toBeInTheDocument();
-  });
-});
+test.each(["/projects", "/v2/projects"])(
+  "%s shows every project and its recorded duration",
+  (path) => {
+    window.history.replaceState({}, "", path);
+    render(<App />);
+    expect(screen.getAllByRole("article")).toHaveLength(projectData.length);
+    projectData.forEach((project) => {
+      const article = screen
+        .getByRole("heading", { name: project.name })
+        .closest("article");
+      expect(within(article).getByRole("img")).toHaveAttribute(
+        "src",
+        project.imageUrl,
+      );
+      if (project.duration)
+        expect(within(article).getByText(project.duration)).toBeInTheDocument();
+    });
+  },
+);
 
-test("skills and education have one page heading and accessible external links", () => {
-  window.history.replaceState({}, "", "/skills");
+test("v2 skills and education have one page heading and accessible external links", () => {
+  window.history.replaceState({}, "", "/v2/skills");
   render(<App />);
   expect(screen.getAllByRole("heading", { level: 1 })).toHaveLength(1);
   expect(screen.getAllByRole("article")).toHaveLength(
@@ -93,6 +119,6 @@ test("unknown routes provide a working return link", () => {
   );
   fireEvent.click(screen.getByRole("link", { name: "소개 페이지로 이동" }));
   expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent(
-    "원준엽입니다",
+    "원준엽",
   );
 });

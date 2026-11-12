@@ -40,7 +40,7 @@ export default function Dashboard() {
             <li>Always Learning</li>
           </ul>
           <div className="hero-actions">
-            <Link className="button-link" to="/projects">
+            <Link className="button-link" to="/v2/projects">
               프로젝트 보기 <AiOutlineArrowRight aria-hidden="true" />
             </Link>
             <a className="text-link" href="mailto:wjyeop@gmail.com">
@@ -102,7 +102,7 @@ export default function Dashboard() {
             <li key={strength}>{strength}</li>
           ))}
         </ul>
-        <Link className="text-link" to="/skills">
+        <Link className="text-link" to="/v2/skills">
           기술과 경험 자세히 보기 <AiOutlineArrowRight aria-hidden="true" />
         </Link>
       </section>

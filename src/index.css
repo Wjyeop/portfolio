@@ -7,8 +7,8 @@ html {
 }
 body {
   margin: 0;
-  background: #171717;
-  color: #f5f2ee;
+  background: #fbfaf7;
+  color: #1c1c1a;
   font-family:
     "Pretendard Variable",
     "Pretendard",
@@ -22,7 +22,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-::selection {
+body.dark {
+  color-scheme: dark;
+  background: #171717;
+  color: #f5f2ee;
+}
+body.dark ::selection {
   background: #d8b99b;
   color: #171717;
 }
